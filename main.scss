@@ -1,26 +1,28 @@
 $color-border: rgb(202, 205, 214);
 img{
-    width:100%;
+    //position
     display:block;
+    width:100%;
 }
 body{
     background-color: bisque;
 }
 
 .popup{
+    //position
     display:flex;
     flex-direction: row;
     width:50%;
+
+    //styling
     background-color: white;
 }
 
 .popup-headline{
-
     //position
     text-align: center;
 }
 .social-headline{
-    
     // position
     text-align: center;
     
@@ -28,7 +30,6 @@ body{
     text-transform: uppercase;
 }
 .social-container{
-
     //position
     display:flex;
     flex-direction: row;
@@ -37,7 +38,6 @@ body{
 }
 
 .icon-container{
-
     // position
     display:grid;
     place-items: center;
@@ -52,7 +52,6 @@ body{
 }
 
 .icon{
-
     //position
     width:25px;
 }
