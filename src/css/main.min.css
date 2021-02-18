@@ -1,0 +1,46 @@
+img {
+  width: 100%;
+  display: block;
+}
+
+body {
+  background-color: bisque;
+}
+
+.popup {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  background-color: white;
+}
+
+.popup-headline {
+  text-align: center;
+}
+
+.social-headline {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.social-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+}
+
+.icon-container {
+  display: grid;
+  place-items: center;
+  width: 45px;
+  height: 45px;
+  padding: 5px;
+  border: 2px #cacdd6 solid;
+  border-radius: 10px;
+}
+
+.icon {
+  width: 25px;
+}
+/*# sourceMappingURL=main.min.css.map */
