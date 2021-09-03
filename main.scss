@@ -1,33 +1,6 @@
-/* ================================= Reset */
-
-*::before,
-*::after,
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-  @font-face {
-    font-family: text-font;
-    src: url(/src/fonts/Open_Sans/OpenSans-Light.ttf);
-  }
-
-:root {
-    font-size: 62.5%;
-    font-family: text-font, Verdana, Geneva, Tahoma, sans-serif;
- 
-}
-
-/* ================================= Reset End */
-
 $color-border: rgb(202, 205, 214);
 
-   
 .popup-container {
-   
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.253);
@@ -36,57 +9,48 @@ $color-border: rgb(202, 205, 214);
     justify-content: center;
     align-items: center;
 
-
-
     .popup {
         //position
         display: flex;
         flex-wrap: wrap;
-        margin:100px;
+        margin: 100px;
         border-radius: 20px;
         overflow: hidden;
-        
-        
-
 
         .popup-image-container {
-           width: 350px;
-           flex-grow: 1;
-            
+            width: 350px;
+            flex-grow: 1;
         }
 
-        .image-in-container{
-            //position: absolute;
+        .image-in-container {
             display: block;
-           // width:100%;
-            height:450px;
+            height: 450px;
         }
-
 
         .content {
             padding: 40px;
             flex-grow: 1;
             width: 350px;
-           
-            text-align: center;   
+
+            text-align: center;
             background-color: white;
 
             .popup-headline {
                 //font
-                font-family: Roboto,sans-serif;
+                font-family: Roboto, sans-serif;
                 font-weight: 900;
                 font-size: 5rem;
-                letter-spacing: -.035em;
+                letter-spacing: -0.035em;
                 margin-bottom: 30px;
             }
 
-            .popup-paragraph{
+            .popup-paragraph {
                 font-size: 1.6rem;
                 color: #646369;
                 line-height: 1.4em;
-                margin-bottom: 40px;         
+                margin-bottom: 40px;
             }
-            
+
             .social-headline {
                 // position
                 text-align: center;
@@ -103,26 +67,49 @@ $color-border: rgb(202, 205, 214);
                 flex-direction: row;
                 flex-wrap: wrap;
                 justify-content: center;
-                gap: 15px; 
-                
+                gap: 15px;
+
                 .icon-container {
-                // position
-                display: grid;
-                place-items: center;
-                //width: 45px;
-                //height: 45px;
-                padding: 15px;
+                    // position
+                    display: grid;
+                    place-items: center;
+                    padding: 15px;
 
-                // style
-                border: 1px $color-border solid;
-                border-radius: 10px;
+                    // style
+                    border: 1px $color-border solid;
+                    border-radius: 10px;
 
-                .icon {
-                    //position
-                    width: 20px;
+                    .icon {
+                        //position
+                        width: 20px;
+                    }
                 }
-            }
             }
         }
     }
 }
+
+
+/* ================================= Reset */
+
+*::before,
+*::after,
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@font-face {
+    font-family: text-font;
+    src: url(/src/fonts/Open_Sans/OpenSans-Light.ttf);
+}
+
+:root {
+    font-size: 62.5%;
+    font-family: text-font, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ================================= Reset End */

@@ -1,24 +1,4 @@
-/* ================================= Reset */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-*::before,
-*::after,
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-@font-face {
-  font-family: text-font;
-  src: url(/src/fonts/Open_Sans/OpenSans-Light.ttf);
-}
-
-:root {
-  font-size: 62.5%;
-  font-family: text-font, Verdana, Geneva, Tahoma, sans-serif;
-}
-
-/* ================================= Reset End */
 .popup-container {
   width: 100vw;
   height: 100vh;
@@ -56,10 +36,10 @@
 }
 
 .popup-container .popup .content .popup-headline {
-  font-family: Roboto,sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: 900;
   font-size: 5rem;
-  letter-spacing: -.035em;
+  letter-spacing: -0.035em;
   margin-bottom: 30px;
 }
 
@@ -96,4 +76,25 @@
 .popup-container .popup .content .social-container .icon-container .icon {
   width: 20px;
 }
+
+/* ================================= Reset */
+*::before,
+*::after,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: text-font;
+  src: url(/src/fonts/Open_Sans/OpenSans-Light.ttf);
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: text-font, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ================================= Reset End */
 /*# sourceMappingURL=main.min.css.map */
